@@ -1,0 +1,16 @@
+.nav-section{
+    display: flex;
+   justify-content: space-between;
+   width: 80%;
+   justify-items: center;
+   margin: 0 auto;
+}
+#Logo{
+    color:#4E47FF;
+}
+.primary{
+    background-color: #4E47FF;
+    color: white;
+    padding: 0px 50px;
+    border-radius: 8px;
+}
