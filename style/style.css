@@ -144,6 +144,49 @@ body{
     display: flex;
    justify-content: start;
 }
+#from-title{
+    font-size: 50px;
+}
+.from-content{
+    display: flex;
+   align-items: center;
+   gap: 30px;
+   justify-content: space-between;
+   
+  
+
+}
+
+#from input{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+   border: none;
+    
+}
+#from textarea{
+    width: 300px;
+    height: 60px;
+    border-radius: 8px;
+    border: none; 
+    
+}
+#from-section{
+     width: 80%;
+   margin: 0 auto;
+   padding-bottom: 50px;
+   margin-top: 50px;
+
+}
+#from ::placeholder{
+  padding: 10px 0px 10px 10px;
+}
+#submit{
+    background-color: rgb(78, 71, 255);
+    color: white;
+}
+
+
 
 
 
@@ -156,6 +199,7 @@ body{
 .Home  {
     list-style: none;
     display: flex;
+  margin-left: -40px;
     
    
     
