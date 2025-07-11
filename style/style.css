@@ -55,7 +55,7 @@ body{
     padding: 5px 10px;
     margin-left: 200px;
 }#header-section{
-    background-image: url("./Assets/Hero-bg.png");
+    background-image: url"./Assets/Hero-bg.png";
 }
 #Action{
     display: flex;
