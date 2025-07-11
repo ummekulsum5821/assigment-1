@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(245, 248, 255);
+}
+
+
 .nav-section{
     display: flex;
    justify-content: space-between;
@@ -5,6 +10,7 @@
    justify-items: center;
    margin: 0 auto;
  align-items: center;
+
 }
 #Logo{
     color:#4E47FF;
@@ -19,7 +25,7 @@
 }
 #primary-btn{
     height: 30px;
-    /* margin-top: 20px; */
+  
     
   
     padding: 0px 30px;
@@ -33,7 +39,7 @@
     justify-content: center;
     justify-items: center;
     margin-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 152px;
    
 }
 #title{
@@ -50,4 +56,133 @@
     margin-left: 200px;
 }#header-section{
     background-image: url("/Assets/Hero-bg.png");
+}
+#Action{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+   
+   
+    
+    
+}
+#live-btn{
+    height: 30px;
+    padding: 0px 20px ;
+    
+    width:auto 229px;
+
+}
+#assets-btn{
+    border-radius: 8px;
+   
+    
+}
+.life{
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+}
+#user-content{
+          width: 80%;
+          margin: 0 auto;
+          background-color: rgba(78, 71, 255, 0.1);
+          border-radius: 12px;
+          
+}  
+#user-content h1{
+         display: flex;
+         justify-content: center;
+     padding-top: 30px;
+      
+}
+#user-activity{
+    display: flex;
+  justify-content: space-around;
+
+
+}
+#user-activity h1{
+    font-size: 50px;
+    color: rgb(78, 71, 255);
+
+}
+#user-activity p{
+    margin-top: -30px;
+    padding-bottom: 50px;
+
+}
+.rating-container{
+  margin-top: 70px;
+    display: flex;
+   align-items: center;
+   gap: 20px;
+   
+}
+#rating-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+}
+#rating-section h1{
+    display: flex;
+    justify-content: center;
+   
+}
+#rating{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 5px;
+}
+#rating h1{
+    display: flex;
+   justify-content: start;
+}
+
+
+
+#name{
+    display: flex;
+    margin-top:30px;
+    padding-left: 50px;
+}
+
+.Home  {
+    list-style: none;
+    display: flex;
+    
+   
+    
+}
+ul li{
+margin: 20px;
+text-decoration: 10px;
+
+}
+.center{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+}
+#project-br{
+    margin-top: -10px;
+}
+#footer-logo{
+    color: rgb(78, 71, 255);
+    font-size:60px ;
+  margin-bottom: -10px;
+   
+   
+}
+footer{
+    background-color:white;
 }
